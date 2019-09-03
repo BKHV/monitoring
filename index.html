@@ -1,5 +1,57 @@
-<html>
-<body>
-123
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="/faces/favicon.png">
+    <title>Тирекс</title>
+    <link href="/faces/static/css/main.870deaa3.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <style>
+      .runner-container {margin-top: 150px; }
+    </style>
+  </head>
+  
+  <body id="t" class="offline">
+    <div id="messageBox" class="sendmessage">
+      <div id="root"><div class="px2 mx-auto container app">
+      <header class="my2" >
+         <h2 class="m0 h3"><span role="img" aria-label="grin">🦖🦖🦖</span></h2>
+        <h1 class="my1 h2">Мониторинг</h1>
+        <p class="m0">Для начала игры нажмите на клавиатуре стрелочку вверх 🔼</p>
+        </header>
+        
+         <div class="niokbutton" onclick="okbuttonsend()"></div>
+      
+            
+        <div id="main-frame-error" class="interstitial-wrapper">
+        <div id="main-content">
+            <div class="icon icon-offline" alt=""></div>
+        </div>
+    </div>
+        
+        
+        
+    <footer class="mt3 py2 h6 border-top border-silver"><a href="https://bkhv.tech/">Сделано @BKHV</a> / 😎</footer>
+    </div></div>
+      
+    </div>
+    
+
 </body>
+  
+
+      
+      <script>
+    document.onkeydown = function(evt) {
+    evt = evt || window.event;
+    if (evt.keyCode == 32) {
+        var box = document.getElementById("messageBox");
+        box.style.visibility="hidden";
+    }
+};
+</script>
+      
+      
 </html>
